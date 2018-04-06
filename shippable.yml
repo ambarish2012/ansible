@@ -8,7 +8,7 @@ matrix:
   exclude:
     - env: T=none
   include:
-    - env: T=linux/centos7/3
+    - env: T=linux/centos7/1
   
 build:
   pre_ci_boot:
