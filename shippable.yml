@@ -15,7 +15,7 @@ build:
     image_name: drydock/u16pytall
     image_tag: master
     pull: false
-    options: "--privileged=false --net=bridge"
+    options: "--privileged=false --net=bridge --security-opt seccomp=unconfined"
   ci:
     - test/utils/shippable/timing.sh test/utils/shippable/shippable.sh $T
 
