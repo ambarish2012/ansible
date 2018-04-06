@@ -12,11 +12,7 @@ matrix:
     - env: T=linux/centos7/1
     - env: T=linux/centos6/3
     - env: T=linux/centos7/3
- branches:
-  except:
-    - "*-patch-*"
-    - "revert-*-*"
-
+  
 build:
   pre_ci_boot:
     image_name: drydock/u16pytall
