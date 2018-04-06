@@ -9,9 +9,6 @@ matrix:
     - env: T=none
   include:
     - env: T=linux/centos7/3
-    - env: T=linux/centos6/1
-    - env: T=linux/centos7/1
-    - env: T=linux/centos6/3
   
 build:
   pre_ci_boot:
